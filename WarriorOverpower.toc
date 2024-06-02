@@ -1,0 +1,5 @@
+## Interface: 11200
+## Title: Warrior Overpower
+## Notes: Shows when overpower is available
+## Author: MikeBeloborodov
+WarriorOverpower.xml

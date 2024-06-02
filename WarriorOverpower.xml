@@ -1,0 +1,34 @@
+<Ui>
+	<Script file="WarriorOverpower.lua"/>
+	<Frame name="WarriorOverpower" hidden="true">
+		<Size x="300" y="100" />
+
+		<Anchors>
+			<Anchor point="CENTER">
+				<Offset x="0" y="80" />
+			</Anchor>
+		</Anchors>
+
+		<Layers>
+			<Layer level="ARTWORK ">
+				<FontString name="$parent_text" inherits="GameFontRedLarge" text="OVERPOWER!">
+					<Size x="300" y="100" />
+
+					<Anchors>
+						<Anchor point="CENTER">
+							<Offset x="0" y="0" />
+						</Anchor>
+					</Anchors>
+
+					<Color r="1" g="0" b="0" a="1" />
+				</FontString>
+			</Layer>
+		</Layers>
+
+		<Scripts>
+			<OnLoad>OverpowerOnLoad()</OnLoad>
+			<OnEvent>OverpowerOnEvent()</OnEvent>
+			<OnUpdate>OverpowerOnUpdate()</OnUpdate>
+		</Scripts>
+	</Frame>
+</Ui>
