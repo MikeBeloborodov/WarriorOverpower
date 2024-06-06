@@ -1,18 +1,22 @@
 <Ui>
 	<Script file="WarriorOverpower.lua"/>
 	<Frame name="WarriorOverpower" hidden="true">
-		<Size x="300" y="100" />
+		<Size x="400" y="200" />
 
 		<Anchors>
 			<Anchor point="CENTER">
-				<Offset x="0" y="80" />
+				<Offset x="0" y="-100" />
 			</Anchor>
 		</Anchors>
 
 		<Layers>
 			<Layer level="ARTWORK ">
-				<FontString name="$parent_text" inherits="GameFontRedLarge" text="OVERPOWER!">
-					<Size x="300" y="100" />
+				<FontString name="$parent_text" font="Interface\AddOns\WarriorOverpower\RobotoM.ttf" text="OVERPOWER">
+					<Size x="400" y="200" />
+
+					<FontHeight>
+						<AbsValue val="40" />
+					</FontHeight>
 
 					<Anchors>
 						<Anchor point="CENTER">
@@ -20,7 +24,7 @@
 						</Anchor>
 					</Anchors>
 
-					<Color r="1" g="0" b="0" a="1" />
+					<Color r="1" g="1" b="0" a="1" />
 				</FontString>
 			</Layer>
 		</Layers>
